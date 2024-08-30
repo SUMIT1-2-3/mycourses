@@ -1,5 +1,3 @@
-myList = list()
-aList = tuple()
-
-myList.append(1)
-print(myList)
+name = str(int("input your name"))
+if name.isdigit():
+  print("Go to Mars")
